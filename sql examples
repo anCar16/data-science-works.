@@ -1,3 +1,9 @@
 git clone https://github.com/anCar16/data-science-works.git
 cd data-science-works
 
+mkdir myfolder
+echo "# sql example files" > myfolder/README.md
+
+git add myfolder/README.md
+git commit -m "Add dd organized data portfolio structure with SQL"
+git push
